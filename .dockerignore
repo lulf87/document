@@ -1,0 +1,9 @@
+**/.git
+**/__pycache__
+**/.env
+**/.venv
+**/node_modules
+frontend/dist
+backend/uploaded_files
+.gitignore
+README.md 
