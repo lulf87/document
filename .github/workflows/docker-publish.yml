@@ -36,7 +36,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.repository_owner }}/document:latest
-            ghcr.io/${{ github.repository_owner }}/document:${{ github.sha }}
-          # Enable build cache to speed up subsequent builds
-          cache-from: type=gha,scope=${{ github.workflow }}
-          cache-to: type=gha,mode=max,scope=${{ github.workflow }} 
+            ghcr.io/${{ github.repository_owner }}/document:${{ github.sha }} 
