@@ -4,6 +4,7 @@
 **/.venv
 **/node_modules
 frontend/dist
-backend/uploaded_files
+backend/uploaded_files/*
+!backend/uploaded_files/.gitkeep
 .gitignore
 README.md 
